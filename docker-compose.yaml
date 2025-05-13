@@ -1,4 +1,4 @@
-version: "3"
+version: "3.5"
 
 services:
   nginx:
@@ -18,3 +18,4 @@ services:
 networks:
   nginx-proxy-network:
     driver: bridge
+    name: 'nginx-proxy-network'
